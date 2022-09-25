@@ -23,7 +23,7 @@ public class Patternizer {
      * For example, the series 1, 2, 2, 3 is considered a group while 1, 2, 4, 3
      * is not. A single value 5 or 1 or 8923423 is also considered a group. If a
      * sequence's elements are {1, 3, 5, 6, 6, 7, 8, 0, 9}, then the returned
-     * array will be: [[0], [1], [2, 6] [7], [8]] (the integer values are the
+     * array will be: [[0], [1], [2, 6], [7], [8]] (the integer values are the
      * indexes of the groups. A single integer in a sub-array represents a group
      * containing a element (like 1 or 0 or 9) where the integer is the index of
      * that element while a sub-array containing two integers represents a group
